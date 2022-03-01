@@ -1,0 +1,12 @@
+ALGORITHM insert_sort
+var
+i,m,tmp:integer;
+arr:array_of integer[m];
+begin
+for i from 1 to m-1 do
+while(j>=0 AND arr[j]>tmp) do 
+arr[j+1]:=arr[j];
+j:=j-1;
+arr[j+1]:=tmp;
+end_for
+end 
